@@ -1,0 +1,98 @@
+.body {
+  background-color: grey;
+}
+.ppcontainer {
+  width: 120vh;
+  height: 70vh;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  margin: 100px auto;
+  background-color: white;
+}
+.ppheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ppheader h1 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 15px auto 70px 30px;
+}
+.ppheader .btnHeader {
+  margin: 15px 30px auto auto;
+  border: none;
+  background: none;
+  color: blue;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.ppstatus {
+  margin-right: 15px;
+}
+
+.colorItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #ddd;
+  margin: auto 30px auto 30px;
+}
+.box {
+  width: 50px;
+  text-indent: -1000em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.colorContainer {
+  display: flex;
+}
+.ppbtn {
+  display: flex;
+  justify-content: right;
+  margin-top: 50px;
+  margin-right: 30px;
+}
+.btnCancel {
+  width: 80px;
+  height: 40px;
+  background: white;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin-right: 25px;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: #444444;
+  cursor: pointer;
+}
+.btnSave {
+  width: 80px;
+  height: 40px;
+  background: #2072ef;
+  border-radius: 5px;
+  border-color: #2072ef;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+.btnshow {
+  display: flex;
+  justify-content: right;
+}
+.ppshow {
+  background: #444444;
+  color: white;
+  display: flex;
+  justify-content: right;
+  margin-top: 30px;
+  margin-right: 120px;
+  width: 170px;
+  height: 50px;
+  font-size: 23px;
+  align-items: center;
+  padding-right: 25px;
+  border: none;
+  cursor: pointer;
+}
